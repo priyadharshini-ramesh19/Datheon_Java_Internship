@@ -53,5 +53,4 @@ The GPA is calculated using a simplified formula: average marks divided by 10. T
 - Implemented input validation
 - Worked with student records and grade calculations
 
-## Author
-Java Internship Project — Datheon
+
