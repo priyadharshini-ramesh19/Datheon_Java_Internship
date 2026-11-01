@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
-public class GradeManager {
+public class GradeManager{
     private ArrayList<Student>students;
     public GradeManager(){
         students = new ArrayList<>();
