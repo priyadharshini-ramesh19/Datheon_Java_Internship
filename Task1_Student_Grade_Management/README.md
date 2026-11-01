@@ -1,6 +1,3 @@
-# Datheon_Java_Internship
-Java OOP internship projects 
-
 # Student Grade Management System (Java OOP)
 
 ## Project Overview
@@ -52,4 +49,9 @@ The GPA is calculated using a simplified formula: average marks divided by 10. T
 - Implemented input validation
 - Used ArrayList and HashMap
 - Worked with student records and grade calculations
+
+##Internship
+- Organization:Datheon
+- Domain:Java Development
+- Task:Task1-Student Grade Management System
 
