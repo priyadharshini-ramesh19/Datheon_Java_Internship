@@ -1,56 +1,20 @@
-# Datheon_Java_Internship
-Java OOP internship projects 
+# Datheon Java Internship
 
-# Student Grade Management System (Java OOP)
+This repository contains the Java tasks completed as part of my Datheon Java Internship.
 
-## Project Overview
-The Student Grade Management System is a Java console application that manages student details and subject marks. It demonstrates Object-Oriented Programming (OOP), Java Collections, and input validation.
+## Tasks
 
-## Features
-- Add students with unique IDs
-- Record subject marks from 0 to 100
-- Prevent duplicate student IDs and subjects
-- Search for students by ID
-- Display student details and marks
-- Calculate student average and simplified GPA
-- Calculate class average and median
-- Validate menu, ID, name, subject, and mark inputs
+### Task 1 – Student Grade Management System
+A Java application to manage student details and grades.
+
+[View Task 1](Task1_Student_Grade_Management/)
+
+### Task 3 – Word Counter & Text Corpus Analyzer
+A Java program to analyze text and calculate word frequency and statistics.
+
+[View Task 3](Task3_Word_Counter/)
 
 ## Technologies Used
-- Java (JDK 17 or compatible version)
-- ArrayList
-- HashMap
-- Scanner
-- Visual Studio Code
-
-## Project Files
-- `Student.java` — stores student information, marks, average, and GPA
-- `GradeManager.java` — manages students, searching, display, class average, and median
-- `Main.java` — provides the console menu and input validation
-
-## How to Run
-
-Compile the Java files:
-
-```bash
-javac Student.java GradeManager.java Main.java
-```
-
-Run the application:
-
-```bash
-java Main
-```
-
-## How It Works
-The user selects an option from the console menu to add students, record marks, search for students, display records, or calculate class statistics.
-
-The GPA is calculated using a simplified formula: average marks divided by 10. This is an illustrative calculation, not an official institutional GPA scale.
-
-## Learning Outcomes
-- Practiced Java OOP and encapsulation
-- Used ArrayList and HashMap
-- Implemented input validation
-- Worked with student records and grade calculations
-
-
+- Java
+- VS Code
+- GitHub
