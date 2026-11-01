@@ -1,78 +1,58 @@
-Word Counter & Text Corpus Analyzer
+# Word Counter & Text Corpus Analyzer (Java)
 
-Project Description
+## Project Overview
 
-A Java-based text analysis application that reads text documents and calculates various text statistics using Java I/O and Collections.
+The Word Counter & Text Corpus Analyzer is a Java-based application that reads a text file and analyzes its content. It calculates useful text statistics, including total words, unique words, character count, sentence count, average sentence length, and word frequency.
 
-Technologies Used
+## Features
 
-- Java
-- FileReader
+- Read text from an input file
+- Count total words
+- Count unique words
+- Calculate total characters
+- Count sentences
+- Calculate average sentence length
+- Identify the top 10 most frequently used words
+- Display word frequency statistics
+
+## Technologies Used
+
+- Java (JDK 17 or compatible version)
+- File Handling
 - BufferedReader
-- HashMap
-- HashSet
+- StringBuilder
 - ArrayList
-- VS Code
+- HashSet
+- HashMap
+- Regular Expressions
+- Visual Studio Code
 
-Features
+## Project Files
 
-1. Reads text from an input file.
-2. Removes punctuation.
-3. Converts text into lowercase.
-4. Calculates total word count.
-5. Calculates unique word count.
-6. Counts total characters.
-7. Calculates total sentences.
-8. Calculates average sentence length.
-9. Displays the Top 10 most frequently occurring words.
+- "WordAnalyzer.java" — reads and analyzes the input text, calculates statistics, and displays word frequencies
+- "input.txt" — contains the sample text used for analysis
 
-Project Structure
+## How to Run
 
-WordCounterProject/
-├── WordAnalyzer.java
-├── input.txt
-└── README.md
+Make sure that input.txt is in the same folder as WordAnalyzer.java.
 
-How to Run
-
-1. Install Java JDK.
-2. Open the project folder in VS Code.
-3. Open the terminal.
-4. Compile the program:
+Compile the Java file:
 
 javac WordAnalyzer.java
 
-5. Run the program:
+Run the application:
 
 java WordAnalyzer
 
-Sample Output
+## How It Works
 
-Total Words: 46
-Unique Words: 41
-Total Characters: 375
-Total Sentences: 3
-Average Sentence Length: 15.33
+The application reads text from the input file and processes its content. It identifies words, removes punctuation for word analysis, counts total and unique words, calculates sentence statistics, and displays the 10 most frequently used words.
 
-TOP 10 MOST FREQUENT WORDS:
+## Learning Outcomes
 
-and : 3
-modern : 2
-software : 2
-data : 2
-artificial : 1
-intelligence : 1
-automation : 1
-are : 1
-transforming : 1
-development : 1
+- Practiced Java file handling
+- Used BufferedReader and StringBuilder
+- Worked with ArrayList, HashSet, and HashMap
+- Implemented text processing using regular expressions
+- Improved problem-solving and analytical skills
 
-Note: Words with equal frequencies may appear in a different order.
-
-Learning Outcomes
-
-- Understanding Java File Handling.
-- Working with String manipulation.
-- Understanding HashMap and HashSet.
-- Implementing word frequency analysis.
-- Practising Java Collections and exception handling.
