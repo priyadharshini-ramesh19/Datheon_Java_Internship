@@ -50,7 +50,7 @@ The GPA is calculated using a simplified formula: average marks divided by 10. T
 - Used ArrayList and HashMap
 - Worked with student records and grade calculations
 
-##Internship
+## Internship
 - Organization:Datheon
 - Domain:Java Development
 - Task:Task1-Student Grade Management System
